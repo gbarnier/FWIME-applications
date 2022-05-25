@@ -11,7 +11,7 @@ Repository for FWIME-applications
 2. Initialize submodule.<br>
   `$ git submodule update --init -- external/containers`
 3. Pull singularity image.<br>
-  `$ git lfs checkout external/containers/wave/wave-2d_cuda10.0_sep.sif`
+  `$ cd external/containers && git lfs pull --include wave/wave-2d_cuda10.0_sep.sif --exclude "" && cd -`
 4. Set your DATAPATH environment variable.
   `$ export DATAPATH=<YOUR_DATA_PATH>`
 5. Run singularity shell.<br>
