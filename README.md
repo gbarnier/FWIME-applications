@@ -1,7 +1,7 @@
 # FWIME-applications
 Repository for FWIME-applications
 
-# Software requirements: download and install the following applications:
+# Download and install the following applications:
 - Singularity: https://sylabs.io/guides/3.0/user-guide/installation.html
 - git lfs: https://git-lfs.github.com/
 
@@ -15,4 +15,4 @@ Repository for FWIME-applications
 4. Set your DATAPATH environment variable.
   `$ export DATAPATH=<YOUR_DATA_PATH>`
 5. Run singularity shell.<br>
-  `$ ./run_singularity_shell.sh`
+  `$ ./run_singularity_jupyter.sh`
