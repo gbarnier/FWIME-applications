@@ -1,0 +1,13 @@
+obj/*
+*.pyc
+build/
+*.H
+.ipynb_checkpoints
+local/
+._*
+.cache/
+.config/
+.ipython/
+.jupyter/
+.local/
+.nv/
