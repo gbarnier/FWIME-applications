@@ -24,3 +24,4 @@ dipole=1
 zDipoleShift=3
 taperEndTraceWidth=0.5
 dataTaper=0
+nGpu=4

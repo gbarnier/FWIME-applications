@@ -31,3 +31,4 @@ spline=0
 reg=dso
 dsoZeroShift=1.0
 dataTaper=0
+nGpu=4

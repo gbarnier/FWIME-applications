@@ -22,3 +22,4 @@ blockSize=16
 fat=5
 dipole=1
 zDipoleShift=3
+nGpu=4

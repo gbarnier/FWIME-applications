@@ -26,3 +26,4 @@ gradientMask=1
 gradientMaskFile=vel/Marmousi2-gradMask1.pad.H
 dipole=1
 zDipoleShift=3
+nGpu=4

@@ -28,3 +28,4 @@ offset=1
 maxOffset=24
 taperWidthOffset=4
 taperEndTraceWidth=1.0
+nGpu=4

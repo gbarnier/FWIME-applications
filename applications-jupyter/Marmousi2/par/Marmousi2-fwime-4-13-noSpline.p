@@ -33,3 +33,4 @@ nlSolver=lbfgs
 reg=dso
 dsoZeroShift=1.0
 gradientMask=0
+nGpu=4

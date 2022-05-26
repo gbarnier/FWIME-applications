@@ -38,3 +38,4 @@ reg=dso
 dsoZeroShift=1.0
 gradientMask=1
 gradientMaskFile=vel/BP_North_Sea-gradMask-noSpline.pad.H
+nGpu=4

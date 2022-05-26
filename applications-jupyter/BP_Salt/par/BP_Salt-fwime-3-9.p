@@ -23,3 +23,4 @@ fat=5
 dipole=1
 zDipoleShift=3
 dataTaper=0
+nGpu=4

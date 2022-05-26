@@ -35,3 +35,4 @@ xSub=10
 reg=dso
 dsoZeroShift=1.0
 dataTaper=0
+nGpu=4
