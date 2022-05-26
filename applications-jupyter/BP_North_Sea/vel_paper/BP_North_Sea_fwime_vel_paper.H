@@ -13,7 +13,7 @@ Cp:   gbarnier@friday   Thu May 26 00:29:48 2022
 
 
 Window3d:   gbarnier@friday   Thu May 26 00:29:49 2022
-		sets next: in="./vel_target/BP_North_Sea_fwime_vel_target.H@"
+		sets next: in="./vel_paper/BP_North_Sea_fwime_vel_paper.H@"
 #Window #f1=55  #j1=1 #n1=140
 #Window #f2=55  #j2=1 #n2=728
 		junkME=0
