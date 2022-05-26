@@ -1,4 +1,3 @@
----
 # Welcome to our repository: FWIME-applications
 * This goal of this repository is to reproduce the results from the manuscript submitted to Geophysics, entitled **Full waveform inversion by model extension: practical applications**
 * Authors for this repository: Guillaume Barnier (barnier@gmail.com), Ettore Biondi (ebiondi@caltech.edu), Stuart Farris (sfarris@sep.stanford.edu)
