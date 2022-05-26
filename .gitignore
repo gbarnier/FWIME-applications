@@ -10,3 +10,8 @@ local/
 .jupyter/
 .local/
 .nv/
+**/dat/*.H
+**/vel/*.H
+**/wav/*.H
+**/spline2dJunk/*.H
+**/inv/*.H
