@@ -33,11 +33,11 @@ Producing reliable acoustic subsurface velocity models still remains the main bo
 
 ---
 # Useful references from the authors
-* Barnier, G., 2022, Full waveform inversion by model extension: a robust method to estimate the seismic propagation velocity in the subsurface from seismic recordings: Ph.D. thesis, Stanford University [link](http://sepwww.stanford.edu/data/media/public/sep/gbarnier/Guillaume_thesis_sep_website.pdf
-* Biondi, E., G. Barnier, R. G. Clapp, F. Picetti, and S. Farris, 2021, An object-oriented optimization framework for large-scale inverse problems: Computers & Geosciences, 154, 104790 [link](https://www.sciencedirect.com/science/article/pii/S0098300421000935
-* Barnier, G., and E. Biondi, 2020, Full waveform inversion by model extension using a model-space multi-scale approach, in SEG Technical Program Expanded Abstracts 2020: Society of Exploration Geophysicists, 646–650 [link](https://library.seg.org/doi/abs/10.1190/segam2020-3428421.1
-* Barnier, G., E. Biondi, and R. Clapp, 2019, Waveform inversion by model reduction using spline interpolation: Presented at the SEG International Exposition and Annual Meeting, OnePetro [link](https://library.seg.org/doi/abs/10.1190/segam2019-3216866.1
-* Barnier, G., E. Biondi, and B. Biondi, 2018, Full waveform inversion by model extension, in SEG Technical Program Expanded Abstracts 2018: Society of Exploration Geophysicists, 1183–1187 [link](https://library.seg.org/doi/10.1190/segam2018-2998613.1
+* Barnier, G., 2022, Full waveform inversion by model extension: a robust method to estimate the seismic propagation velocity in the subsurface from seismic recordings: Ph.D. thesis, Stanford University [link](http://sepwww.stanford.edu/data/media/public/sep/gbarnier/Guillaume_thesis_sep_website.pdf)
+* Biondi, E., G. Barnier, R. G. Clapp, F. Picetti, and S. Farris, 2021, An object-oriented optimization framework for large-scale inverse problems: Computers & Geosciences, 154, 104790 [link](https://www.sciencedirect.com/science/article/pii/S0098300421000935)
+* Barnier, G., and E. Biondi, 2020, Full waveform inversion by model extension using a model-space multi-scale approach, in SEG Technical Program Expanded Abstracts 2020: Society of Exploration Geophysicists, 646–650 [link](https://library.seg.org/doi/abs/10.1190/segam2020-3428421.1)
+* Barnier, G., E. Biondi, and R. Clapp, 2019, Waveform inversion by model reduction using spline interpolation: Presented at the SEG International Exposition and Annual Meeting, OnePetro [link](https://library.seg.org/doi/abs/10.1190/segam2019-3216866.1)
+* Barnier, G., E. Biondi, and B. Biondi, 2018, Full waveform inversion by model extension, in SEG Technical Program Expanded Abstracts 2018: Society of Exploration Geophysicists, 1183–1187 [link](https://library.seg.org/doi/10.1190/segam2018-2998613.1)
 
 ---
 # About the authors
