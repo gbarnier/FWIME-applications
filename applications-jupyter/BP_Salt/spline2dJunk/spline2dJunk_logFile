@@ -1,0 +1,124 @@
+##########################################################################################
+				LINEAR CONJUGATE GRADIENT log file SOLVER
+	Restart folder: /net/vision/scr1/gbarnier/restart_2022-05-26T21-48-12.190387/
+	Modeling Operator:		Operator
+##########################################################################################
+
+iter = 00, obj = 1.40098e+06, resnorm = 1.67e+03, gradnorm = 1.67e+03, feval = 2
+First steppest-descent step length: -1.0006978978042618
+
+iter = 01, obj = 1.55179e+01, resnorm = 5.57e+00, gradnorm = 5.25e+00, feval = 4
+Elapsed time: 0 hours, 0 minutes, 0 seconds
+Current date & time: Thu May 26 21:48:12 2022
+Conjugate alpha,beta: -1.0720173140424365, 1.0555107464357996e-05
+
+iter = 02, obj = 7.29503e-01, resnorm = 1.21e+00, gradnorm = 6.99e-01, feval = 6
+Elapsed time: 0 hours, 0 minutes, 0 seconds
+Current date & time: Thu May 26 21:48:12 2022
+Conjugate alpha,beta: -1.902500805438941, 0.0314129041209921
+
+iter = 03, obj = 2.64955e-01, resnorm = 7.28e-01, gradnorm = 2.64e-01, feval = 8
+Elapsed time: 0 hours, 0 minutes, 0 seconds
+Current date & time: Thu May 26 21:48:12 2022
+Conjugate alpha,beta: -2.444785836158334, 0.18363261520035293
+
+iter = 04, obj = 1.79648e-01, resnorm = 5.99e-01, gradnorm = 1.55e-01, feval = 10
+Elapsed time: 0 hours, 0 minutes, 0 seconds
+Current date & time: Thu May 26 21:48:12 2022
+Conjugate alpha,beta: -2.6002492710162235, 0.36666505203418837
+
+iter = 05, obj = 1.48370e-01, resnorm = 5.45e-01, gradnorm = 1.07e-01, feval = 12
+Elapsed time: 0 hours, 0 minutes, 0 seconds
+Current date & time: Thu May 26 21:48:12 2022
+Conjugate alpha,beta: -2.747717942652856, 0.5009633640970004
+
+iter = 06, obj = 1.32700e-01, resnorm = 5.15e-01, gradnorm = 7.57e-02, feval = 14
+Elapsed time: 0 hours, 0 minutes, 0 seconds
+Current date & time: Thu May 26 21:48:12 2022
+Conjugate alpha,beta: -3.1274263839445955, 0.5719671282572973
+
+iter = 07, obj = 1.23738e-01, resnorm = 4.97e-01, gradnorm = 4.93e-02, feval = 16
+Elapsed time: 0 hours, 0 minutes, 0 seconds
+Current date & time: Thu May 26 21:48:13 2022
+Conjugate alpha,beta: -2.3967507732715316, 0.3247557844446641
+
+iter = 08, obj = 1.20827e-01, resnorm = 4.92e-01, gradnorm = 2.64e-02, feval = 18
+Elapsed time: 0 hours, 0 minutes, 1 seconds
+Current date & time: Thu May 26 21:48:13 2022
+Conjugate alpha,beta: -3.2801778417370153, 0.39349508857669685
+
+iter = 09, obj = 1.19682e-01, resnorm = 4.89e-01, gradnorm = 2.01e-02, feval = 20
+Elapsed time: 0 hours, 0 minutes, 1 seconds
+Current date & time: Thu May 26 21:48:13 2022
+Conjugate alpha,beta: -2.5299491217426024, 0.4470174727416506
+
+iter = 10, obj = 1.19170e-01, resnorm = 4.88e-01, gradnorm = 1.08e-02, feval = 22
+Elapsed time: 0 hours, 0 minutes, 1 seconds
+Current date & time: Thu May 26 21:48:13 2022
+Conjugate alpha,beta: -2.459209079721284, 0.28072632892813815
+
+iter = 11, obj = 1.19026e-01, resnorm = 4.88e-01, gradnorm = 6.15e-03, feval = 24
+Elapsed time: 0 hours, 0 minutes, 1 seconds
+Current date & time: Thu May 26 21:48:13 2022
+Conjugate alpha,beta: -2.5283965288828467, 0.3325995018466262
+
+iter = 12, obj = 1.18978e-01, resnorm = 4.88e-01, gradnorm = 4.24e-03, feval = 26
+Elapsed time: 0 hours, 0 minutes, 1 seconds
+Current date & time: Thu May 26 21:48:13 2022
+Conjugate alpha,beta: -3.5332329742686825, 0.6654624429485295
+
+iter = 13, obj = 1.18946e-01, resnorm = 4.88e-01, gradnorm = 3.14e-03, feval = 28
+Elapsed time: 0 hours, 0 minutes, 1 seconds
+Current date & time: Thu May 26 21:48:13 2022
+Conjugate alpha,beta: -2.2569146121920958, 0.35083708603185876
+
+iter = 14, obj = 1.18935e-01, resnorm = 4.88e-01, gradnorm = 1.87e-03, feval = 30
+Elapsed time: 0 hours, 0 minutes, 1 seconds
+Current date & time: Thu May 26 21:48:13 2022
+Conjugate alpha,beta: -3.26017990820863, 0.5126519881453577
+
+iter = 15, obj = 1.18929e-01, resnorm = 4.88e-01, gradnorm = 1.42e-03, feval = 32
+Elapsed time: 0 hours, 0 minutes, 1 seconds
+Current date & time: Thu May 26 21:48:14 2022
+Conjugate alpha,beta: -2.568346935183913, 0.4526320822051671
+
+iter = 16, obj = 1.18927e-01, resnorm = 4.88e-01, gradnorm = 8.42e-04, feval = 34
+Elapsed time: 0 hours, 0 minutes, 1 seconds
+Current date & time: Thu May 26 21:48:14 2022
+Conjugate alpha,beta: -2.412654171661098, 0.33028456113671073
+
+iter = 17, obj = 1.18926e-01, resnorm = 4.88e-01, gradnorm = 4.69e-04, feval = 36
+Elapsed time: 0 hours, 0 minutes, 2 seconds
+Current date & time: Thu May 26 21:48:14 2022
+Conjugate alpha,beta: -2.56872833490083, 0.33074149833972283
+
+iter = 18, obj = 1.18926e-01, resnorm = 4.88e-01, gradnorm = 2.47e-04, feval = 38
+Elapsed time: 0 hours, 0 minutes, 2 seconds
+Current date & time: Thu May 26 21:48:14 2022
+Conjugate alpha,beta: -2.23996997402362, 0.24114564422013843
+
+iter = 19, obj = 1.18926e-01, resnorm = 4.88e-01, gradnorm = 1.47e-04, feval = 40
+Elapsed time: 0 hours, 0 minutes, 2 seconds
+Current date & time: Thu May 26 21:48:14 2022
+Conjugate alpha,beta: -3.1119035349003834, 0.49429295914410426
+
+iter = 20, obj = 1.18926e-01, resnorm = 4.88e-01, gradnorm = 1.13e-04, feval = 42
+Elapsed time: 0 hours, 0 minutes, 2 seconds
+Current date & time: Thu May 26 21:48:14 2022
+Conjugate alpha,beta: -3.5495292752826613, 0.6726729594445516
+
+iter = 21, obj = 1.18926e-01, resnorm = 4.88e-01, gradnorm = 8.99e-05, feval = 44
+Elapsed time: 0 hours, 0 minutes, 2 seconds
+Current date & time: Thu May 26 21:48:14 2022
+Conjugate alpha,beta: -2.860618630823266, 0.5091930465934862
+
+iter = 22, obj = 1.18926e-01, resnorm = 4.88e-01, gradnorm = 6.71e-05, feval = 46
+Elapsed time: 0 hours, 0 minutes, 2 seconds
+Current date & time: Thu May 26 21:48:14 2022
+Conjugate alpha,beta: -3.375290749730937, 0.6586713154430741
+Objective function didn't reduce, will terminate solver:
+	obj_new = 1.18926e-01	obj_cur = 1.18926e-01
+##########################################################################################
+				LINEAR CONJUGATE GRADIENT SOLVER log file end
+##########################################################################################
+

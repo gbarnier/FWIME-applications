@@ -6,6 +6,13 @@
 * Feel free to contact us for any questions or bugs to report
 
 ---
+# Summary
+* This repository contains fours notebooks corresponding to the numerical examples proposed in our paper.
+* Once you have followed the instructions below, simply open the main directory called "FWIME-applications"
+* Then, go to the folder corresponding to the numerical example you wish to study/reproduce, and you will find the Jupyter notebook
+* **Impotant remark**: the notebooks assume you have access to four GPUs. If you wish to use a different number of GPUs, please adjust the parameter "nGpu" in the parameter files located in the "par" folder within each numerical example
+
+---
 # Instructions
 1. Download and install the following applications:
     * Singularity: https://sylabs.io/guides/3.0/user-guide/installation.html
@@ -13,7 +20,7 @@
 2. Clone the repo.<br>
   `$ git clone https://github.com/gbarnier/FWIME-applications.git`
 3. Initialize submodule.<br>
-  `$ git submodule update --init -- external/containers`
+  `$ cd FWIME-applications && git submodule update --init -- external/containers`
 4. Pull singularity image.<br>
   `$ cd external/containers && git lfs pull --include wave/wave-2d_cuda10.0_sep.sif --exclude "" && cd -`
 5. Set your DATAPATH environment variable.
@@ -22,20 +29,32 @@
   `$ ./run_singularity_jupyter.sh`
 
 ---
+# Abstract of manuscript submitted to Geophysics
+Producing reliable acoustic subsurface velocity models still remains the main bottleneck of the oil and gas industry's traditional imaging sequence. In complex geological settings, the output of conventional ray-based or wave-equation-based tomographic methods may not be accurate enough for full waveform inversion (FWI) to converge to a geologically satisfactory Earth model. In a complementary paper, we presented the theoretical framework of our new method referred to as full waveform inversion by model extension (FWIME) in which a wave-equation migration velocity analysis (WEMVA) technique is efficiently paired with a modified version of FWI. We claim that our method is able to converge to accurate solutions without the use of a good initial guess or low-frequency energy. In this paper, we demonstrate the potential of our method on five realistic and challenging numerical examples that simulate complex geological scenarios encountered in hydrocarbon exploration. We guide the reader step by step throughout the optimization process. We show that our method can simultaneously invert all wave types with the same simple mechanism and without the need for a user-intensive hyper-parameter tuning process. In addition, we provide a fully-reproducible open-source software solution implemented with general-purpose graphics processing units (GPU) and with a user-friendly Python interface.
+
+---
+# Useful references from the authors
+* Barnier, G., 2022, Full waveform inversion by model extension: a robust method to estimate the seismic propagation velocity in the subsurface from seismic recordings: Ph.D. thesis, Stanford University.
+* Biondi, E., G. Barnier, R. G. Clapp, F. Picetti, and S. Farris, 2021, An object-oriented optimization framework for large-scale inverse problems: Computers & Geosciences, 154, 104790 [link](https://www.sciencedirect.com/science/article/pii/S0098300421000935)
+* Barnier, G., and E. Biondi, 2020, Full waveform inversion by model extension using a model-space multi-scale approach, in SEG Technical Program Expanded Abstracts 2020: Society of Exploration Geophysicists, 646–650 [link](https://library.seg.org/doi/abs/10.1190/segam2020-3428421.1)
+* Barnier, G., E. Biondi, and R. Clapp, 2019, Waveform inversion by model reduction using spline interpolation: Presented at the SEG International Exposition and Annual Meeting, OnePetro [link](https://library.seg.org/doi/abs/10.1190/segam2019-3216866.1)
+* Barnier, G., E. Biondi, and B. Biondi, 2018, Full waveform inversion by model extension, in SEG Technical Program Expanded Abstracts 2018: Society of Exploration Geophysicists, 1183–1187 [link](https://library.seg.org/doi/10.1190/segam2018-2998613.1)
+
+---
 # About the authors
 * [**Guillaume Barnier**](https://www.linkedin.com/in/guillaume-barnier/)
     * Ph.D. student at Stanford University in the Stanford Exporation Project (SEP) group
     * Research interests: seismic imaging, velocity model building, optimization of large-scale non-convex inverse problems, and machine learning
-    * Guillaume's [personal website](https://gbarnier.github.io)
+    * Guillaume's [personal website](https://gbarnier.github.io) and [google scholar page](https://scholar.google.com/citations?user=zZ_LA8IAAAAJ&hl=en)
 * [**Ettore Biondi**](https://www.linkedin.com/in/ettore-biondi/)
     * Postdoctoral Researcher at California Institute of Technology in its Seismological Laboratory working within Professor Zhongwen Zhan's research group
     * Former Ph.D. student at Stanford University in the Stanford Exporation Project (SEP) group
     * Passionate about geophysics, computer science, chemistry, and Earth science
-    * Ettore's [personal page](http://www.seismolab.caltech.edu/biondi_e.html)
+    * Ettore's [personal page](http://www.seismolab.caltech.edu/biondi_e.html) and [google scholar page](https://scholar.google.com/citations?user=Kzl0lcYAAAAJ&hl=en&oi=sra)
 * [**Stuart Farris**](https://www.linkedin.com/in/stuart-farris/)
     * Ph.D. student at Stanford University in the Stanford Exporation Project (SEP) group
     * Research interests: Carbon sequestration, machine learning, velocity model building using deep learning, seismic imaging, and inverse problems
-    * Currently an AI resident at [X Development](https://x.company)
+    * Currently a part-time AI resident at [X Development](https://x.company)
 
 ---
 # Useful links
