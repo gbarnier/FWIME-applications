@@ -29,17 +29,16 @@
 
 ---
 # Instructions
-* Download and install the following applications:
+1. Download and install the following applications:
     * Singularity: https://sylabs.io/guides/3.0/user-guide/installation.html
     * git lfs: https://git-lfs.github.com/
-
-* Clone the repo.<br>
+2. Clone the repo.<br>
   `$ git clone https://github.com/gbarnier/FWIME-applications.git`
-* Initialize submodule.<br>
+3. Initialize submodule.<br>
   `$ git submodule update --init -- external/containers`
-* Pull singularity image.<br>
+4. Pull singularity image.<br>
   `$ cd external/containers && git lfs pull --include wave/wave-2d_cuda10.0_sep.sif --exclude "" && cd -`
-* Set your DATAPATH environment variable.
+5. Set your DATAPATH environment variable.
   `$ export DATAPATH=<YOUR_DATA_PATH>`
-* Run singularity shell.<br>
+6. Run singularity shell.<br>
   `$ ./run_singularity_jupyter.sh`
