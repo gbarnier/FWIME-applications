@@ -1,12 +1,12 @@
 n1=218 o1=-2.75 d1=0.05000000074505806 label1='Undefined'
 n2=474 o2=-5.25 d2=0.05000000074505806 label2='Undefined'
-in='/net/storm/scr2/gbarnier/fwime-1-6-50m-dipole-noSpline-eps7-fwi_inv_mod.H@'
+in='/net/storm/scr2/gbarnier/fwi-1-6-50m-dipole-lbfgs_inv_mod.H@'
 data_format='xdr_float'
 esize=4
 
 
-Window3d:   gbarnier@friday   Thu May 26 00:40:23 2022
-		sets next: in="./vel_target/Syncline_fwime_vel_target.H@"
+Window3d:   gbarnier@jarvis   Thu May 26 12:28:36 2022
+		sets next: in="./vel_paper/Syncline_fwi_vel_paper.H@"
 #Window #f1=55  #j1=1 #n1=70
 #Window #f2=105  #j2=1 #n2=255
 		junkME=0

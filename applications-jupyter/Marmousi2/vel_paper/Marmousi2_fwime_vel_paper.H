@@ -7,7 +7,7 @@ data_format="native_float"
 
 
 Window3d:   gbarnier@friday   Thu May 26 00:22:32 2022
-		sets next: in="./vel_target/Marmousi2_fwime_vel_target.H@"
+		sets next: in="./vel_paper/Marmousi2_fwime_vel_paper.H@"
 #Window #f1=65  #j1=1 #n1=117
 #Window #f2=65  #j2=1 #n2=567
 		junkME=0

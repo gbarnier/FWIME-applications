@@ -78,7 +78,7 @@ hff=-1 gff=-1  n4=1  n5=1  n6=1  n7=1  n8=1  n9=1
 
 
 Window3d:   gbarnier@friday   Thu May 26 00:35:34 2022
-		sets next: in="./vel_target/BP_Salt_fwime_vel_target.H@"
+		sets next: in="./vel_paper/BP_Salt_fwime_vel_paper.H@"
 #Window #f1=55  #j1=1 #n1=215
 #Window #f2=55  #j2=1 #n2=840
 #Window #f3=0  #j3=1 #n3=1
