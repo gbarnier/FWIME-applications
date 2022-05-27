@@ -1,0 +1,22 @@
+
+
+/opt/acoustic_2d/local//bin/padFileGpuMain:   gbarnier@friday   Fri May 27 06:10:43 2022
+	 	n1=298 o1=-2.75 d1=0.05 label1="" 
+
+	 	n2=922 o2=-2.75 d2=0.05 label2="" 
+
+	 	n3=1 o3=0 d3=1 label3="" 
+
+	 	n4=1 o4=0 d4=1 label4="none" 
+
+	 	n5=1 o5=0 d5=1 label5="none" 
+
+	 	n6=1 o6=0 d6=1 label6="none" 
+
+	 	n7=1 o7=0 d7=1 label7="none" 
+
+	 	n8=1 o8=0 d8=1 label8="none" 
+
+		esize=4
+		sets next: in="/net/vision/scr1/gbarnier/data@"
+		data_format="xdr_float"
