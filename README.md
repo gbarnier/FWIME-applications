@@ -9,7 +9,7 @@
 * This repository contains four notebooks corresponding to the numerical examples proposed in our paper
 * Once you have followed the instructions below, simply open the main directory called "FWIME-applications"
 * Then, go to the folder corresponding to the numerical example you wish to study/reproduce, and you will find the Jupyter notebook
-* **Impotant remark**: the notebooks assume you have access to four GPUs. If you wish to use a different number of GPUs, please adjust the parameter "nGpu" in the parameter files located in the "par" folder within each numerical example
+* **Important remark**: the notebooks assume you have access to four GPUs. If you wish to use a different number of GPUs, please adjust the parameter "nGpu" in the parameter files located in the "par" folder within each numerical example
 
 ---
 # Instructions
@@ -28,7 +28,12 @@
   `$ ./run_singularity_jupyter.sh`
 
 ---
+# Hardware requirements
+* NVIDIA GPU devices with at least 5 GB of global memory
+
+---
 # Abstract of manuscript submitted to Geophysics
+## Full waveform inversion by model extension: practical applications
 Producing reliable acoustic subsurface velocity models still remains the main bottleneck of the oil and gas industry's traditional imaging sequence. In complex geological settings, the output of conventional ray-based or wave-equation-based tomographic methods may not be accurate enough for full waveform inversion (FWI) to converge to a geologically satisfactory Earth model. In a complementary paper, we presented the theoretical framework of our new method referred to as full waveform inversion by model extension (FWIME) in which a wave-equation migration velocity analysis (WEMVA) technique is efficiently paired with a modified version of FWI. We claim that our method is able to converge to accurate solutions without the use of a good initial guess or low-frequency energy. In this paper, we demonstrate the potential of our method on five realistic and challenging numerical examples that simulate complex geological scenarios encountered in hydrocarbon exploration. We guide the reader step by step throughout the optimization process. We show that our method can simultaneously invert all wave types with the same simple mechanism and without the need for a user-intensive hyper-parameter tuning process. In addition, we provide a fully-reproducible open-source software solution implemented with general-purpose graphics processing units (GPU) and with a user-friendly Python interface.
 
 ---
@@ -57,7 +62,7 @@ Producing reliable acoustic subsurface velocity models still remains the main bo
 
 ---
 # Useful links
-* Our YouTube channel ["egoptimization"](https://www.youtube.com/channel/UCjloQO0H6JnddXoB017mcog)
+* Our YouTube channel [egoptimization](https://www.youtube.com/channel/UCjloQO0H6JnddXoB017mcog)
 * Stanford Exploration project (SEP) [website](https://sep.sites.stanford.edu) and [YouTube channel](https://www.youtube.com/channel/UCk8h7bfpd-vl_CWCDLHxHzA)
 * Ettore's Ph.D. [thesis](http://sepwww.stanford.edu/data/media/public/sep/ettore/pdfs/thesis/thesis_Ettore.pdf) and Ph.D. [defense](https://www.youtube.com/watch?v=cmhhm4HW070&t=2645s) at Stanford University
 * Guillaume's Ph.D. [thesis](http://sepwww.stanford.edu/data/media/public/sep/gbarnier/Guillaume_thesis_sep_website.pdf) and Ph.D. [defense](https://www.youtube.com/watch?v=vv9krmVRkMo&t=2309s) at Stanford University
