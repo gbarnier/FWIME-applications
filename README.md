@@ -1,35 +1,41 @@
 # Welcome to our repository: FWIME-applications
 * This goal of this repository is to reproduce the results from the manuscript submitted to Geophysics called **Full waveform inversion by model extension (FWIME): practical applications**
-* Authors for this repository: Guillaume Barnier (barnier@gmail.com), Ettore Biondi (ebiondi@caltech.edu), Stuart Farris (sfarris@sep.stanford.edu)
+* Authors for this repository: [Guillaume Barnier](https://gbarnier.github.io) (barnier@gmail.com), [Ettore Biondi](https://www.linkedin.com/in/ettore-biondi/) (ebiondi@caltech.edu), [Stuart Farris](https://www.linkedin.com/in/stuart-farris/) (sfarris@sep.stanford.edu)
 * Date: 05/12/2022
 * Feel free to contact us for any questions or bugs to report
 
 ---
 # Summary
-* This repository contains four notebooks corresponding to the numerical examples proposed in our paper
-* Once you have followed the instructions below, simply open the main directory called "FWIME-applications"
-* Then, go to the folder corresponding to the numerical example you wish to study/reproduce, and you will find the Jupyter notebook
-* **Important remark**: the notebooks assume you have access to four GPUs. If you wish to use a different number of GPUs, please adjust the parameter "nGpu" in the parameter files located in the "par" folder within each numerical example
+* This repository contains five notebooks which allow you to reproduce the numerical examples proposed in our paper:
+    1. Marmousi2 model (Martin et al., 2002)
+    2. North Sea section of the BP 2004 benchmark model (Billette and Brandsberg-Dahl, 2004)
+    3. [Seiscope](https://seiscope2.osug.fr)'s syncline model
+    4. Salt model (modified from Billette and Brandsberg-Dahl (2004))
+    5. West Africa section of the BP 2004 benchmark model (Billette and Brandsberg-Dahl, 2004)
+
+* To make the FWIME results easily reproducible, we use Singularity, a container platform, which allows you to run our code without needing to compile any code.
+* Once you have followed the instructions below, simply open the main directory called "FWIME-applications".
+* Then, go to the folder corresponding to the numerical example you wish to study/reproduce, and you will find the Jupyter notebook.
+* **Important remark**: you need NVIDIA GPU devices to run the notebooks. In the notebooks, the number of GPU devices is to 4 by default. If you wish to use a different number of GPUs, please adjust the parameter "nGpu" in the parameter files located in the "par" folder within each numerical example
+
+---
+# Reporoducibility requirements
+* At least one NVIDIA gpu with CUDA Version >= 10.0 and at least 5 GB of global memory.
+* Singularity: https://sylabs.io/guides/3.0/user-guide/installation.html
+* git lfs: https://git-lfs.github.com/
 
 ---
 # Instructions
-1. Download and install the following applications:
-    * Singularity: https://sylabs.io/guides/3.0/user-guide/installation.html
-    * git lfs: https://git-lfs.github.com/
-2. Clone the repo.<br>
+1. Clone the repo.<br>
   `$ git clone https://github.com/gbarnier/FWIME-applications.git`
-3. Initialize submodule.<br>
+2. Initialize submodule.<br>
   `$ cd FWIME-applications && git submodule update --init -- external/containers`
-4. Pull singularity image.<br>
+3. Pull singularity image.<br>
   `$ cd external/containers && git lfs pull --include wave/wave-2d_cuda10.0_sep.sif --exclude "" && cd -`
-5. Set your DATAPATH environment variable.
+4. Set your DATAPATH environment variable.
   `$ export DATAPATH=<YOUR_DATA_PATH>`
-6. Run singularity shell.<br>
+5. Run singularity shell.<br>
   `$ ./run_singularity_jupyter.sh`
-
----
-# Hardware requirements
-* NVIDIA GPU devices with at least 5 GB of global memory
 
 ---
 # Abstract of manuscript submitted to Geophysics
