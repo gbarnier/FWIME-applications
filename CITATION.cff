@@ -1,0 +1,14 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Barnier"
+  given-names: "Guillaume"
+- family-names: "Biondi"
+  given-names: "Ettore"
+- family-names: "Farris"
+    given-names: "Stuart"
+title: "FWIME-applications"
+version: 1.0.0
+doi: 10.5281/zenodo.6600177
+date-released: 2022-05-31
+url: "https://github.com/gbarnier/FWIME-applications"
