@@ -38,3 +38,19 @@ Pad:   gbarnier@jarvis   Fri May 13 17:02:49 2022
 	 	n2=255 o2=0 d2=0.05 label2=""
 
 		data_format="xdr_float"
+
+
+Window3d:   gbarnier@friday   Fri Jun  3 01:36:26 2022
+		sets next: in="./vel_non_repro/Syncline-velInit.H@"
+#Window #f1=0  #j1=1 #n1=70
+#Window #f2=0  #j2=1 #n2=255
+		junkME=0
+	n2=255  o2=0.000000  d2=0.050000   unit2="Undefined"
+		gff="-1"
+		hff="-1"
+hff=-1 gff=-1  n3=1  n4=1  n5=1  n6=1  n7=1  n8=1  n9=1
+	n1=70  o1=0.000000  d1=0.050000   unit1="Undefined"
+		hff="-1"
+		gff="-1"
+		esize=4
+		data_format="xdr_float"

@@ -19,7 +19,7 @@
 * **Important remark**: you need NVIDIA GPU devices to run the notebooks. In the notebooks, the number of GPU devices is to 4 by default. If you wish to use a different number of GPUs, please adjust the parameter "nGpu" in the parameter files located in the "par" folder within each numerical example
 
 ---
-# Reporoducibility requirements
+# Reproducibility requirements
 * At least one NVIDIA gpu with CUDA Version >= 10.0 and at least 5 GB of global memory.
 * Singularity: https://sylabs.io/guides/3.0/user-guide/installation.html
 * git lfs: https://git-lfs.github.com/
