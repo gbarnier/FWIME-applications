@@ -43,3 +43,12 @@ dsoZeroShift=1.0
 gradientMask=1
 gradientMaskFile=vel/BP_North_Sea-gradMask-spline0.pad.H
 nGpu=4
+vel=vel/BP_North_Sea_velDummy.pad.H
+sources=wav/BP_North_Sea-fwime-wav-3-9.H
+data=dat/BP_North_Sea-fwime-data-3-9.H
+folderNl=inv/BP_North_Sea-fwime-3-9-spline0
+modelCoarseInit=vel/BP_North_Sea-fwime-3-9-coarseInitMod-spline0.H
+minBoundVector=vel/BP_North_Sea-fwime-3-9-spline0-minBound.H maxBoundVector=vel/BP_North_Sea-fwime-3-9-spline0-maxBound.H
+epsilon=0.8e-5 
+sloth=0
+

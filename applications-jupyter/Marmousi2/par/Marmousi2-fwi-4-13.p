@@ -27,3 +27,8 @@ gradientMaskFile=vel/Marmousi2-gradMask1.pad.H
 dipole=1
 zDipoleShift=3
 nGpu=4
+nIter=500
+minBound=1.3 
+maxBound=5.0 
+solver=lbfgs
+

@@ -24,3 +24,9 @@ dipole=1
 zDipoleShift=3
 dataTaper=0
 nGpu=4
+nIter=500 folder=inv/Syncline-fwi-1-6 
+minBound=2.3 
+maxBound=4.3 
+solver=lbfgs 
+gradientMask=1 
+gradientMaskFile=vel/Syncline-gradientMask.pad.H
