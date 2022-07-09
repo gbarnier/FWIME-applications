@@ -23,3 +23,7 @@ fat=5
 dipole=1
 zDipoleShift=3
 nGpu=4
+nIter=500
+minBound=1.3 
+maxBound=5.3 
+solver=lbfgs
